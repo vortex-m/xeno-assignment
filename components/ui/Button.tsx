@@ -21,7 +21,7 @@ export default function Button({
 }: ButtonProps) {
   return (
     <button
-      className={`inline-flex items-center gap-2 rounded-lg px-7 py-3 text-sm font-semibold transition-all ${VARIANT_CLASSES[variant]} ${className}`}
+      className={`inline-flex items-center gap-2 rounded-md px-7 py-3 text-sm font-semibold transition-all ${VARIANT_CLASSES[variant]} ${className}`}
       {...rest}
     >
       {children}

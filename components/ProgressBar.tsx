@@ -14,9 +14,9 @@ export default function ProgressBar({ processed, total }: ProgressBarProps) {
           ? `Validating row ${processed} of ${total}…`
           : "Finalizing…"}
       </div>
-      <div className="h-1 overflow-hidden rounded-full bg-border">
+      <div className="h-1 overflow-hidden rounded-md bg-border">
         <div
-          className="h-full rounded-full bg-accent-gradient transition-all duration-300"
+          className="h-full rounded-md bg-accent-gradient transition-all duration-300"
           style={{ width: `${pct}%` }}
         />
       </div>

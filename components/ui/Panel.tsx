@@ -11,7 +11,7 @@ interface PanelProps {
 export default function Panel({ title, children, className = "" }: PanelProps) {
   return (
     <div
-      className={`rounded-xl border border-border bg-surface p-6 ${className}`}
+      className={`rounded-md border border-border bg-surface p-6 ${className}`}
     >
       {title && (
         <div className="mb-4 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted">

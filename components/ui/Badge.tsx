@@ -8,7 +8,7 @@ const SEVERITY_CLASSES: Record<Severity, string> = {
 export default function Badge({ severity }: { severity: Severity }) {
   return (
     <span
-      className={`inline-block rounded-full px-2 py-0.5 text-[11px] font-semibold ${SEVERITY_CLASSES[severity]}`}
+      className={`inline-block rounded-md px-2 py-0.5 text-[11px] font-semibold ${SEVERITY_CLASSES[severity]}`}
     >
       {severity}
     </span>

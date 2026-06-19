@@ -27,13 +27,13 @@ export default function ChunksPanel({
     <Panel title="Downloads">
       <div className="mb-4 flex flex-wrap gap-3">
         <Button variant="ok" onClick={onDownloadClean}>
-          ⬇ Download Cleaned CSV
+          Download Cleaned CSV
         </Button>
         <Button variant="outline" onClick={onDownloadReport}>
-          📋 Download Error Report
+          Download Error Report
         </Button>
         <Button variant="outline" onClick={onDownloadChunks}>
-          🗂 Download Chunks (ZIP-like)
+          Download Chunks (ZIP-like)
         </Button>
       </div>
 

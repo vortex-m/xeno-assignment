@@ -40,7 +40,7 @@ export default function IssuesTable({ issues }: { issues: ValidationIssue[] }) {
 
       <div className="overflow-x-auto">
         {filtered.length === 0 ? (
-          <div className="py-8 text-center text-ok">✅ No issues found!</div>
+          <div className="py-8 text-center text-ok">No issues found!</div>
         ) : (
           <table className="w-full border-collapse text-[13px]">
             <thead>

@@ -12,8 +12,6 @@ interface ColumnMapperProps {
   validating: boolean;
 }
 
-/** Lets the user map each expected field to a column from the
- *  uploaded file (auto-guessed on upload, editable per-field). */
 export default function ColumnMapper({
   fields,
   headers,

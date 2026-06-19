@@ -12,8 +12,6 @@ interface ConfigPanelProps {
   onChunkSizeChange: (size: number) => void;
 }
 
-/** Top-level settings: per-country phone rules, accepted date formats,
- *  and the chunk size used when splitting the cleaned output. */
 export default function ConfigPanel({
   digitsByCode,
   onDigitsChange,

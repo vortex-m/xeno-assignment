@@ -21,7 +21,7 @@ export default function DateFormatChips({
             key={f.label}
             type="button"
             onClick={() => onToggle(i)}
-            className={`select-none rounded-full border px-3.5 py-1.5 font-mono text-xs transition-colors ${
+            className={`select-none rounded-md cursor-pointer border px-3.5 py-1.5 font-mono text-xs transition-colors ${
               active
                 ? "border-accent bg-accent text-white"
                 : "border-border bg-surface2 text-text hover:border-accent/60"

@@ -7,7 +7,7 @@ pipeline{
         stage("Clone"){
             steps{
                 clone("https://github.com/vortex-m/xeno-assignment.git", "main")
-            }
+            } 
         }
         stage("Build"){
             steps{
